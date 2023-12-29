@@ -48,7 +48,6 @@
 .customer__list{
     position: relative;
     padding: 37px 25px;
-    justify-content: center;
     border-radius: 10px;
     background: #E2E2E2;
     max-width: 370px;
@@ -62,7 +61,7 @@
 .customer__list::after{
     position: absolute;
     content: '';
-    color: red;
+    color: #ff0000;
     width: 0;
 	height: 0;
 	border-left: 20px ;
